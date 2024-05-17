@@ -244,6 +244,8 @@ img {
     color: #0069E5;
     font-weight: 700;
     font-size: 24px;
+
+    word-break: break-all;
 }
 
 .swiper-slide__main button {
@@ -312,6 +314,10 @@ img {
 
         width: 20px;
         height: 5px;
+    }
+
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        padding: 0;
     }
 }
 
