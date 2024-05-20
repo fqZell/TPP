@@ -41,12 +41,6 @@ img {
     margin: 0 auto;
 }
 
-@media (max-width: 1440px) {
-    .container {
-        margin: 0 24px;
-    }
-}
-
 .header-nav {
     display: flex;
     flex-direction: row;
