@@ -46,7 +46,36 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
 });
+
+const swiper2 = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        // mobile + tablet - 320-990
+        320: {
+          slidesPerView: 1
+        },
+        500: {
+          slidesPerView: 1
+        },
+        991: {
+          slidesPerView: 2
+        }
+    }
+  });
 
 const init = () => {
     burgerMenu();
