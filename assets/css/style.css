@@ -244,8 +244,6 @@ img {
     color: #0069E5;
     font-weight: 700;
     font-size: 24px;
-
-    word-break: break-all;
 }
 
 .swiper-slide__main button {
@@ -388,6 +386,11 @@ img {
     color: #0069E5;
     font-size: 12px;
     font-weight: 300;
+}
+
+.news-photo img {
+    width: 192px;
+    height: 89px;
 }
 
 .news-description {
