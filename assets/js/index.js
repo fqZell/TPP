@@ -75,7 +75,7 @@ const swiper2 = new Swiper(".mySwiper", {
           slidesPerView: 2
         }
     }
-  });
+});
 
 const init = () => {
     burgerMenu();
